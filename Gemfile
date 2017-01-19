@@ -14,9 +14,8 @@ gem 'rails-i18n'
 # Flexible authentication solution for Rails with Warden
 gem 'devise'
 
+gem 'pg'
 gem 'devise-i18n'
-
-gem 'foreman'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
@@ -49,6 +48,8 @@ group :development, :test do
   gem 'byebug', platform: :mri
   # Better error page for Rack apps
   gem "better_errors"
+  # Generate Entity-Relationship Diagrams for Rails applications
+  gem 'rails-erd'
 end
 
 group :development do
