@@ -15,6 +15,10 @@ gem 'rails-i18n'
 gem 'devise'
 
 gem 'pg'
+
+# Rails gem of the Bootstrap based admin theme SB Admin 2. 
+gem 'bootstrap_sb_admin_base_v2'
+
 gem 'devise-i18n'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -23,6 +27,7 @@ gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
+
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
