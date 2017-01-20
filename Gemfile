@@ -18,6 +18,8 @@ gem 'pg'
 
 # Rails gem of the Bootstrap based admin theme SB Admin 2. 
 gem 'bootstrap_sb_admin_base_v2'
+# bootstrap The most popular front-end framework for developing responsive, mobile first projects on the web.
+gem 'rails-assets-bootstrap', '3.3.7', source: 'https://rails-assets.org'
 
 gem 'devise-i18n'
 # Use sqlite3 as the database for Active Record
