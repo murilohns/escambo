@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 development:
   adapter: async
 
@@ -7,3 +8,14 @@ test:
 production:
   adapter: redis
   url: redis://localhost:6379/1
+=======
+development:
+  adapter: async
+
+test:
+  adapter: async
+
+production:
+  adapter: redis
+  url: redis://localhost:6379/1
+>>>>>>> 9dc1311096f73a30bbafec7f538b4eb90090fc98
